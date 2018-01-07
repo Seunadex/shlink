@@ -1,0 +1,107 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "base";
+
+.brand-logo {
+  font-family: "Arizonia", cursive;
+  font-size: 40px !important;
+  margin-left: 10%;
+}
+
+.homepage-img {
+  background: url("./fabian-irsara-92113.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+  .overlay {
+    background-color: $background-blue;
+    height: 703px;
+  }
+}
+
+#nav-mobile {
+  font-family: $font-family-regular;
+  font-weight: 600;
+  margin-left: 20%;
+}
+
+.login-btn {
+  background-color: transparent;
+  border: 1px solid $background-white;
+  font-family: $font-family-regular;
+  font-weight: 600;
+  margin-left: 370px !important;
+}
+
+.login-btn:hover {
+  background-color: $background-white;
+  color: rgb(94, 125, 199);
+}
+
+.signup-btn {
+  background-color: $background-white;
+  color: rgb(94, 125, 199);
+  font-family: $font-family-regular;
+  font-weight: 600;
+  margin-left: 30px !important;
+}
+
+.signup-btn:hover {
+  background-color: $background-blue;
+  color: $background-white;
+}
+
+.hero-text {
+  color: $background-white;
+  font-family: $font-family-regular;
+  margin-top: 100px;
+
+  h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+.hero-text > p {
+  font-size: 20px;
+}
+
+.input-group {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.input-group input, .suffix {
+  display: table-cell;
+}
+
+#icon-prefix {
+  background-color: $background-white;
+  border: 1px solid #38e77b;
+  height: 59px;
+  margin-top: -2px !important;
+  width: 400px;
+}
+
+.suffix > a {
+  background-color: #38e77b !important;
+  color: $background-white;
+  font-family: $font-family-regular;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.suffix > a:hover {
+  opacity: 0.7;
+}
+
+.shrink-btn {
+  padding: 19px 30px 20px 30px;
+}
+
+.shrink-btn:hover {
+  cursor: pointer;
+}

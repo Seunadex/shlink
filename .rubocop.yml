@@ -24,7 +24,7 @@ Style/CollectionMethods:
     find: detect
     find_all: select
     reduce: inject
-Style/DotPosition:
+Style/Layout:
   Description: Checks the position of the dot in multi-line method calls.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains
   Enabled: true
@@ -32,7 +32,7 @@ Style/DotPosition:
   SupportedStyles:
   - leading
   - trailing
-Style/FileName:
+Style/Naming:
   Description: Use snake_case for source file names.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#snake-case-files
   Enabled: false
@@ -46,7 +46,7 @@ Style/IfUnlessModifier:
   Description: Favor modifier if/unless usage when you have a single-line body.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#if-as-a-modifier
   Enabled: false
-  MaxLineLength: 80
+  Metrics/LineLength: 80
 Style/OptionHash:
   Description: Don't use option hashes when you can use keyword arguments.
   Enabled: false
@@ -64,7 +64,7 @@ Style/PercentLiteralDelimiters:
     "%w": "()"
     "%W": "()"
     "%x": "()"
-Style/PredicateName:
+Style/Naming:
   Description: Check the names of predicate methods.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#bool-methods-qmark
   Enabled: true
@@ -178,7 +178,7 @@ Lint/AssignmentInCondition:
 Style/InlineComment:
   Description: Avoid inline comments.
   Enabled: false
-Style/AccessorMethodName:
+Style/Naming:
   Description: Check the naming of accessor methods for get_/set_.
   Enabled: false
 Style/Alias:
