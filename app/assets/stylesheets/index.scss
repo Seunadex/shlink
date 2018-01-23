@@ -10,12 +10,12 @@
   margin-left: 10%;
 }
 
-.homepage-img {
-  background: url("./fabian-irsara-92113.jpg") no-repeat center center fixed;
+.homepage-img{
+  background: url('fabian-irsara-92113.jpg');
   background-size: cover;
 
   .overlay {
-    background-color: $background-blue;
+    background-color: rgba(94, 125, 199, 0.7);
     height: 703px;
   }
 }
@@ -71,7 +71,7 @@
   display: table;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 75px;
 }
 
 .input-group input, .suffix {
@@ -81,20 +81,22 @@
 #icon-prefix {
   background-color: $background-white;
   border: 1px solid #38e77b;
-  height: 59px;
-  margin-top: -2px !important;
+  height: 51px;
   width: 400px;
 }
 
-.suffix > a {
+input.suffix {
   background-color: #38e77b !important;
   color: $background-white;
   font-family: $font-family-regular;
   font-size: 16px;
   text-transform: uppercase;
+  padding: 15px 30px 17px 30px;
+  margin-top: -8px !important;
+  border: none;
 }
 
-.suffix > a:hover {
+input.suffix:hover {
   opacity: 0.7;
 }
 
