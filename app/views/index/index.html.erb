@@ -16,10 +16,14 @@
       <h2>Shrink it right away!</h2>
       <p>Shorten your links with shlink, avoid long urls</p>
     </div>
-
-    <div class="input-group">
-        <input id="icon-prefix" type="text" class="validate" placeholder="Paste a url to shrink it">
-        <span class="suffix"><a class="shrink-btn" type="submit">Shrink</a></span>
+<form id="url-form">
+  <div class="input-group">
+    <input id="icon-prefix" type="text" class="validate" placeholder="Paste a url to shrink it" required>
+    <input class='suffix' id="submit-url" type="submit" value="Shrink"/>
+</div>
+</form>
+    <div class="url-wrapper">
+      <span class="short-url"></span>
     </div>
   </div>
 </div>
